@@ -54,3 +54,8 @@ To prepare a copy for deployment, build it in a `dirhtml` format:
 
     $ make clean dirhtmlg
 
+Publishing
+----------
+
+To publish new content, merge a pull request.
+Once your code is in the `master` branch, a GitHub Action will publish it.
