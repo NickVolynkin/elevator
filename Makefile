@@ -7,6 +7,7 @@ SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = source
 BUILDDIR      = build
+BUILDER       = dirhtml
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -18,3 +19,6 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+serve: clean
+	sphinx-autobuild -E -b $(BUILDER) --delay 5 --ignore *_jb_* -D language=ru "$(SOURCEDIR)" "$(BUILDDIR)"
