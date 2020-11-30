@@ -60,3 +60,12 @@ html_theme = 'alabaster'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+rst_epilog = """
+.. |openbtn| replace:: :guilabel:`◄ || ►`
+.. |stopbtn| replace:: :guilabel:`СТОП`
+.. |callbtn| replace:: :guilabel:`🔔`
+.. |dispatcher| replace:: `+7-800-201-01-06 <tel:+7-800-201-01-06>`__
+
+
+"""

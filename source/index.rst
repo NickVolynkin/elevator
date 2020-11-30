@@ -4,11 +4,17 @@
 ===========================
 
 В вашем доме есть лифт. Ура!
-Здесь вы узнаете, как им пользоваться и что делать в разных ситуациях.
+Он поможет вам подняться на свой этаж и спуститься обратно.
+Ещё в нём можно перевезти тяжёлые сумки, мебель или животных.
 
-Для начала, запишите телефон диспетчерской: `+7-800-201-01-06 <tel:+7-800-201-01-06>`__.
+Здесь вы узнаете, как пользоваться лифтом и что делать в разных ситуациях.
+
+Для начала, запишите телефон диспетчерской: |dispatcher|.
 Звоните, если что-то случится с лифтом.
 Диспетчеры работают круглосуточно, звонок бесплатный.
+
+Так, что тут у нас?
+-------------------
 
 ..  toctree::
     :maxdepth: 1
@@ -24,22 +30,23 @@
 
     kak-podozhdat-cheloveka
     poezdka-s-rebenkom
+    poezdka-s-zhivotnym
     kak-perevezti-mebel
-    esli-vy-uronili-kluchi
-    esli-v-lifte-temno
-    esli-lift-zastryal
-    pri-pozhare
 
 ..  toctree::
     :maxdepth: 1
-    :caption: Подробнее:
+    :caption: Решение проблем:
 
-    kak-rabotaet-lift
+    kak-soobshit-o-probleme
+    esli-v-lifte-temno
+    esli-lift-ostanovilsya
+    esli-vy-uronili-kluchi
+    esli-lift-hlopaet-dveryami
+    pri-pozhare
 
 ..  toctree::
     :maxdepth: 1
     :caption: Справочник:
 
-    spravka
-    slovarik
+    technicheskie-harakteristiki
 
